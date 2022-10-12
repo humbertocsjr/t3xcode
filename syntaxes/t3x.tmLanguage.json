@@ -19,7 +19,7 @@
 		"keywords": {
 			"patterns": [{
 				"name": "keyword.control.t3x",
-				"match": "\\b(struct|if|ie|else|while|for|return|loop|leave|do|end|const|var)\\b"
+				"match": "\\b(struct|if|ie|else|while|far|farint|for|return|loop|leave|do|end|const|var)\\b"
 			}]
 		},
 		"strings": {

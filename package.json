@@ -2,7 +2,7 @@
   "name": "t3x",
   "displayName": "t3x",
   "description": "Highlight Syntax support for T3X language(with T3X/86 Low Level Extensions)",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "repository": {"url": "https://github.com/humbertocsjr/t3xcode"},
   "publisher": "Humbertocsjr",
   "engines": {
