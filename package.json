@@ -3,6 +3,7 @@
   "displayName": "t3x",
   "description": "Highlight Syntax support for T3X language(with T3X/86 Low Level Extensions)",
   "version": "0.0.1",
+  "repository": {"url": "https://github.com/humbertocsjr/t3xcode"},
   "engines": {
     "vscode": "^1.72.0"
   },
@@ -10,16 +11,28 @@
     "Programming Languages"
   ],
   "contributes": {
-    "languages": [{
-      "id": "t3x",
-      "aliases": ["T3X", "t3x"],
-      "extensions": [".t"],
-      "configuration": "./language-configuration.json"
-    }],
-    "grammars": [{
-      "language": "t3x",
-      "scopeName": "source.t3x",
-      "path": "./syntaxes/t3x.tmLanguage.json"
-    }]
+    "languages": [
+      {
+        "id": "t3x",
+        "aliases": [
+          "T3X",
+          "t3x"
+        ],
+        "extensions": [
+          ".t"
+        ],
+        "configuration": "./language-configuration.json"
+      }
+    ],
+    "grammars": [
+      {
+        "language": "t3x",
+        "scopeName": "source.t3x",
+        "path": "./syntaxes/t3x.tmLanguage.json"
+      }
+    ]
+  },
+  "dependencies": {
+    "nvm": "0.0.4"
   }
 }
